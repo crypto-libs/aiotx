@@ -58,8 +58,3 @@ jobs:
         DB_PASSWORD: root
         DB_NAME: testdb
     
-    - name: Upload coverage report
-      uses: actions/upload-artifact@v4
-      with:
-        name: coverage-report
-        path: coverage.xml
