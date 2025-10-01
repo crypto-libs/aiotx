@@ -26,7 +26,7 @@ extras_utxo = [
     "aiomysql",
     "greenlet",
     "cryptography",
-    "bitcoinlib==0.6.*",
+    "bitcoinlib==0.7.*",
 ]
 
 
